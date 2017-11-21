@@ -1,0 +1,19 @@
+{
+  "applicationName": "Elixir proteomics - EBI Cloud Portal",
+  "contactEmail": "walzer@ebi.ac.uk",
+  "about": "A basic pxd dataset processor for selected workflows (k8s-galaxy)",
+  "version": "0.1",
+  "cloudProviders": [
+    {
+     "cloudProvider": "OSTACK",
+     "path": "ostack",
+     "inputs":["machine_type"]
+    }
+  ],
+  "inputs": ["workflow", "dataset_pxd"],
+  "deploymentParameters": ["network_name",
+                           "floatingip_pool",
+                           "subnet_id"],
+
+  "outputs": ["external_ip"]
+}

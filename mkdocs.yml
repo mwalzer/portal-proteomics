@@ -1,0 +1,7 @@
+site_name: Elixir proteomics - EBI Cloud Portal
+pages:
+- Home: index.md
+- Terraform - Google Cloud: gcp-terraform.md
+- API testing: api-testing.md
+- Mkdocs Documentation: mkdocs.md
+theme: readthedocs
